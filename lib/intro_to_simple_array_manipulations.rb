@@ -17,3 +17,11 @@ end
 def using_shift(arr)
   arr.shift 
 end
+
+def shift_with_args(arr, num)
+  arr.shift(num)
+end
+
+def using_concat(arr, arr2)
+  arr << arr2
+end
